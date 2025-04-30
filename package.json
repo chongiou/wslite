@@ -1,0 +1,26 @@
+{
+  "name": "@zdjl/ws",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "chongiou",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "build:test": "vite build --mode zdjl",
+    "push:test": "node --import tsx scripts/push.ts dist/testWebsocketClient.zjs to sdcard/自动精灵",
+    "dev:test": "nodemon"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.19.4",
+    "vite": "^6.3.4",
+    "vite-mjs-to-zjs": "^1.0.2"
+  }
+}
